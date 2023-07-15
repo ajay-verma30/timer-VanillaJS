@@ -1,0 +1,66 @@
+body{
+    overflow: hidden !important;
+    padding: 0px;
+    margin: 0px;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-size: 2em;
+    margin: auto !important;
+}
+
+.buttons{
+    justify-content: center;
+    padding: 10px;
+    display: flex;
+}
+
+.buttons button{
+    border-radius: 5px;
+}
+
+#startButton{
+    margin: 10px;
+    padding: 10px;
+    background-color: green;
+}
+#stopButton{
+    margin: 10px;
+    padding: 10px;
+    background-color: red;
+}
+#resetButton{
+    margin: 10px;
+    padding: 10px;
+    background-color: orange;
+}
+
+#startButton:hover{
+    background-color: rgb(67, 220, 67);
+}
+
+#stopButton:hover{
+    background-color: rgb(241, 109, 109);
+}
+
+#resetButton:hover{
+    background-color: rgb(246, 195, 100);
+}
+
+.times{
+    display: flex;
+    justify-content: center;
+}
+
+
+#hour, #minute, #second{
+    font-size: 3em;
+    margin: 0px !important;
+}
+
+.def{
+    font-size: 1em;
+}
